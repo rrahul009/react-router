@@ -10,12 +10,14 @@ import NomatchRoutes from './components/NomatchRoutes';
 import NestedRoute from './components/NestedRoute';
 import List1 from './components/List1';
 import List2 from './components/List2';
+import Useeffect from './components/Useeffect';
 
 const App = () => {
   return (
     <>
       <Navbar />
       <NavbarNavlink/>
+      <Useeffect/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
